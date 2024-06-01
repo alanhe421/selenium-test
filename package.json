@@ -5,12 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "start:ff": "node index.js --browser ff"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/selenium-webdriver": "^4.1.23",
+    "commander": "^12.1.0",
     "selenium-webdriver": "^4.21.0"
+  },
+  "devDependencies": {
+    "@types/selenium-webdriver": "^4.1.23"
   }
 }
